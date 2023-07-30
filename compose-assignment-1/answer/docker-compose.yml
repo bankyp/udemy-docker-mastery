@@ -14,7 +14,7 @@ services:  # containers. same as docker run
   postgres:
     image: postgres:14
     environment:
-      POSTGRES_PASSWORD: example
+      - POSTGRES_PASSWORD=passwds
 
 volumes:
   drupal-modules:

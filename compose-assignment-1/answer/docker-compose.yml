@@ -11,7 +11,7 @@ services:  # containers. same as docker run
       - drupal-sites:/var/www/html/sites
       - drupal-themes:/var/www/html/themes
 
-  postgres-db:
+  postgres:
     image: postgres:14
     environment:
       -- POSTGRES_PASSWORD: example
